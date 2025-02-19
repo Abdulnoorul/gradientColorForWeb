@@ -1,0 +1,31 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Center align the main heading */
+h1 {
+    text-align: center;
+}
+
+/* Styling for buttons */
+button {
+    outline: none;             /* Removes the default button outline */
+    font-size: 20px;           /* Sets the font size */
+    border-radius: 50px;       /* Rounds the button corners */
+    padding: 5px;              /* Adds space inside the button */
+    width: 100px;              /* Sets the button width */
+    margin: 50px;              /* Adds space around the button */
+    font-weight: 900;          /* Makes the text bold */
+}
+
+/* Center align the buttons container */
+#buttn {
+    text-align: center;
+}
+
+/* Styling for the output box (which displays RGB values) */
+output {
+    border: 2px solid black;   /* Adds a black border */
+    padding: 5px;              /* Adds space inside the output box */
+    font-size: 18px;           /* Sets the font size */
+}
